@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+  background-color: rgb(37, 37, 37);
+}
+.box
+{
+   
+    width: 100vw;
+    height: 30vh;
+    padding-bottom: 2vh;
+    padding-left: -20vw ;
+    margin: 5vw;
+    background-color: black;
+    margin-bottom: 2vh;
+    padding-top: 4vh;
+    border-radius: 5px;
+} 
+
+.picture
+{
+   position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    width: 20vw;
+
+    /* Remove transform */
+     /* transform: translateY(-9.2vh);
+     transform: translateX(3vw);  */
+
+    margin-left: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+    border-radius: 18px;
+
+    flex-shrink: 0; /* Prevent from shrinking in flex */
+}
+
+.channel-name,
+.channel-View,
+.VideoOld,
+.dot {
+  font-size: 2.6vh;
+  color: white;
+  opacity: 0.6;
+}
+
+.dot
+{
+  transform: translateY(-4vh);
+  font-size: 7vh;
+}
+
+
+.Elements-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+}
+
+
+.Master-Wrap
+{
+  
+  display: flex;
+   flex-direction: row;
+  align-items: flex-start;  
+}
+
+.info-bar
+{
+  transform: translate(-1.5vw,2vh);  
+  display: flex;
+  gap:.6vw;
+  margin-left: 3vw;
+}
+.card-title
+{
+  position: relative;
+  transform: translate(1vw,2vh);
+    color: white;
+}
+
+.Time-duration
+{
+  position: absolute;
+  z-index: 10;
+  color: aliceblue;
+  opacity: .8;
+  background-color: black;
+  font-size: 3.2vh;
+  width:4vw;
+
+  padding: 0.4vh .8vw;
+  border-radius: 10px;
+
+top: 19vh;
+left: 13vw;
+}
